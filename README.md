@@ -10,7 +10,7 @@ Solvers : Nastran, CalculiX
 Pre-/Post-Processing : NX, PrePomax
 
 
-## Extrusion procession simulation 
+## Extrusion process simulation 
 
 
 ## Watch components analysis
