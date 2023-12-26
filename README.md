@@ -8,9 +8,9 @@ CAD & Design : NX, Inventor
 Solvers : Nastran, CalculiX
 
 Pre-/Post-Processing : NX, PrePomax
+tree/main
 
-
-## [2D Axisymmetric analysis of a copper extrusion process](https://github.com/vierui/FEA-Portfolio/stat-housing-flange/README.dm "Extrusion process")
+## [2D Axisymmetric analysis of a copper extrusion process](https://github.com/vierui/FEA-Portfolio/tree/main/stat-housing-flange/README.dm "Extrusion process")
 2D Axisymmetric analysis of a copper extrusion process.
 
 **GOAL**  
