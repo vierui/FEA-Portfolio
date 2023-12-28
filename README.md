@@ -4,7 +4,7 @@ Welcome to my FEA Portfolio, showcasing diverse projects and analyses in linear 
 
 Detailed analyses are accessible through the project titles
 
-**[Technical stack]**
+**Tech stack**
 - CAD & Design : NX, Inventor
 - Solvers : Nastran, CalculiX
 - Pre-/Post-Processing : NX, PrePoMax, ParaView
@@ -13,15 +13,15 @@ Detailed analyses are accessible through the project titles
 ### [Watch components analysis](https://github.com/vierui/FEA-Portfolio/tree/main/2D-nonLin-watch-wheel-spring/README.dm "2D plane-stress watch components")
 The crown wheel transmits the winding motion to the mainspring. The click-spring), is a ratchet mechanism that prevents the mainspring from unwinding, thus retaining the energy stored during winding
 
-**[Objective]** 
+**Objective** 
 
 Determine the maximum torque required for tooth passage in the crown wheel and the maximum stress in the click spring, providing insights into mechanical efficiency and material stress limits.
 
-**[Hypothesis]**  
+**Hypothesis**  
 - 2D Plane Stress (XY) - Axisymmetric
 - Nonlinear (NASTRAN - SOL402)
 
-**[Main Results]** 
+**Main Results** 
 
 <p align="center">
 <img
@@ -43,7 +43,7 @@ Illustration 1-1 :
 Illustration 1-2 : 
 </p>
 
-**[Discussion]** 
+**Discussion** 
 - Identification of constraints exceeding the elastic limit, leading to high risk of plastic deformations.
 - Identification of maximum torque and stress points calling out for design improvement.
 - It is suggested to replace the standard steel with spring steel for better fatigue resistance.
@@ -60,18 +60,18 @@ Illustration 1-2 :
 
 ### [Aerospace panel buckling analysis](https://github.com/vierui/FEA-Portfolio/tree/main/stat-housing-flange/README.dm "Buckling aeropspace panel")
 
-**[Objective]** 
+**Objective** 
 
 Investigate the buckling behavior of an F/A-18 structural-wing panel, exploring both linear and nonlinear analysis methods for a comprehensive understanding of the panel's structural integrity.
 
-**[Hypothesis]**  
+**Hypothesis**  
 - Linear approach (NASTRAN - SOL101)
 - Nonlinear approach (NASTRAN - SOL402)
 - Multiple mesh models
 - 3D Shell
 
 
-**[Main Results]** 
+**Main Results** 
 
 <p align="center">
 <img
@@ -109,7 +109,7 @@ Illustration 2-1 :
 Table 2-1 : 
 </p>
 
-**[Discussion]** 
+**Discussion** 
 - The study underscores the limitations of linear solutions in certain scenarios, advocating for the necessity of nonlinear analysis in similar contexts.
 - The stress exerted on the piece exceeds the elastic limit of standard steel and may even surpass the tensile strength of lower-grade steels.
 - Suggests potential material improvements and structural modifications for enhanced performance.
