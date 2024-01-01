@@ -77,11 +77,11 @@ Figure 2-1 : Extrusion section stress-profile (left) and copper's plastic strain
 <p align="center">
 <img
   src="https://github.com/vierui/FEA-Portfolio/blob/main/nonlinear-copper-extrusion/press-matrix-stress.png"
- width="800">
+ width="450">
 </p>
 
 <p align="center">
-Figure 2-2 : 
+Figure 2-2 : Matrix high stress highlight (VonMises Nodal)
 </p>
 
 **Discussion**
@@ -195,6 +195,7 @@ Structural integrity analysis of a worm gear from a ACL2 120 linear actuator, us
 - Hypothesizes that the gear can withstand specified loads without significant deformation or failure, using linear static analysis and fatigue load cases.
 
 #### Main Results
+An Haigh diagram is used  to assess the fatigue life of materials under varying stress conditions. It graphically represents the relationship between stress amplitude and mean stress, helping to determine safe stress levels to avoid material failure.
 <p align="center">
 <img
   src="https://github.com/vierui/FEA-Portfolio/blob/main/stat-worm-gear/worm-gear-haigh-diagram.png"
