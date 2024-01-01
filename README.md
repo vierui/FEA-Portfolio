@@ -24,7 +24,7 @@ Determine the maximum torque required for tooth passage in the crown wheel and t
 </p>
 
 <p align="center">
-Figure 1-1 : 
+Figure 1-1 : Crown wheel torque measure 
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@ Figure 1-1 :
 </p>
 
 <p align="center">
-Figure 1-2 : 
+Figure 1-2 : Highest stress profile and definition of a critical area (VonMises Nodal)
 </p>
 
 #### Dicussion
@@ -45,7 +45,7 @@ Figure 1-2 :
 - Possibility to increase torque while maintaining constant stress by increasing the friction coefficient.
 
 ### [2D Axisymmetric analysis of a copper extrusion process](https://github.com/vierui/FEA-Portfolio/tree/main/stat-housing-flange/README.dm "2D axisymmetric extrusion process")
-This study presents a detailed examination of the extrusion process in copper wire, focusing on stress profiles and plastic deformations. It combines simulation with empirical validation, offering insights into the complexities of material behavior under stress.
+Examination of the extrusion process in copper wire, focusing on stress profiles and plastic deformations. It combines simulation with empirical validation, offering insights into the complexities of material behavior under stress.
 
 #### Objective
 - Analyze stress profiles in extruded copper wire section.
@@ -57,12 +57,11 @@ This study presents a detailed examination of the extrusion process in copper wi
 - Structural axisymmetric modeling (2D) with SOL 402 (Non-linear).
 - Assumptions include large strains and material nonlinearity.
 
-**Main Results**
+#### Main Resuts
 - The yield limit of the matrix material exceeded, indicating critical areas.
 - Critical zones located upstream of diameter restriction.
 - Copper exhibits stick-slip effect; piston experiences non-linear movement.
 - Simulation results align with hand calculations, confirming the accuracy of the simulation.
-
 
 <p align="center">
 <img
@@ -92,7 +91,6 @@ Figure 2-2 : Matrix high stress highlight (VonMises Nodal)
 ### [Aerospace panel buckling analysis](https://github.com/vierui/FEA-Portfolio/tree/main/stat-housing-flange/README.dm "Buckling aeropspace panel")
 
 #### Objective
-
 Investigate the buckling behavior of an F/A-18 structural-wing panel, exploring both linear and nonlinear analysis methods for a comprehensive understanding of the panel's structural integrity.
 
 #### Hyphotesis 
@@ -102,7 +100,6 @@ Investigate the buckling behavior of an F/A-18 structural-wing panel, exploring 
 - 3D Shell
 
 #### Main Results
-
 <p align="center">
 <img
   src="https://github.com/vierui/FEA-Portfolio/blob/main/buckling-shell-aerospace-panel/panel-nodal-avrg-vonmises.png"
@@ -110,7 +107,7 @@ Investigate the buckling behavior of an F/A-18 structural-wing panel, exploring 
 </p>
 
 <p align="center">
-Figure 3-1 : 
+Figure 3-1 : linear stress (left) vs nonlinear stress (right) (VonMises Nodal)
 </p>
 
 <p align="center">
@@ -120,11 +117,11 @@ Figure 3-1 :
 </p>
 
 <p align="center">
-Figure 3-2 : 
+Figure 3-2 : out of plane displacement : linear (left) vs non linear (right)
 </p>
 
 <div align="center">
-
+  
 |  Comparison                                   | Linear   | Nonlinear |
 |-----------------------------------------------|----------|-----------|
 | Number of elements around the hole            | 30       | 30        |
@@ -132,10 +129,10 @@ Figure 3-2 :
 | Max Von Mises stress on the inner edge of the hole | 533 MPa | 429 MPa   |
 | Max principal stress on the inner edge of the hole | 508 MPa | 427 MPa   |
 | Maximum out-of-plane displacement             | 1.17 mm  | 6.44 mm   |
-
 </div>
+
 <p align="center">
-Table 3-1 : 
+Table 3-1 : Linear vs. nonlinear main results summary .
 </p>
 
 #### Discussion
@@ -155,14 +152,19 @@ Static analysis of a ACL2 120 linear actuator gear's housing and its flange focu
 - Assumptions include material properties based on FKM criteria and the application of maximum load conditions.
 
 #### Main Results
-<p align="center">
-<img
-  src="https://github.com/vierui/FEA-Portfolio/blob/main/stat-housing-flange/.png"
- width="800">
-</p>
 
+
+<div align="center">
+
+|                       | FEA Model  | Analytical Value | Decision |
+|-----------------------|------------|------------------|----------|
+| Max Deformations [mm] | 0.016      | 0.006            | Accepted |
+| Max Stresses [MPa]    | 15.18      | 8.36             | Accepted |
+| Max Support Force [N] in x | 1872  | 1872             | Accepted |
+
+</div>
 <p align="center">
-Figure 4-1 : 
+Table 4-1 : Results values summary
 </p>
 
 <p align="center">
@@ -172,7 +174,7 @@ Figure 4-1 :
 </p>
 
 <p align="center">
-Figure 4-2 : 
+Figure 4-1 : Housing & flange reaction forces
 </p>
 
 - Analysis showed low deformation and stress values, indicating endurance within limits.
@@ -183,7 +185,7 @@ Figure 4-2 :
 - Screw drive's design validated for endurance under given conditions.
 
 ### [Linear actuator's worm gear analysis](https://github.com/vierui/FEA-Portfolio/tree/main/stat-housing-flange/README.dm "Static worm gear")
-Structural integrity analysis of a worm gear from a ACL2 120 linear actuator, using finite element methods to evaluate its performance under fatigue stress conditions.
+Structural integrity analysis of a worm gear from a ACL2 120 linear actuator to evaluate its performance under fatigue stress conditions.
 
 #### Objective
 - Analyze and evaluate the structural performance of a worm gear in an ACL2 120 linear actuator under fatigue stress.
@@ -203,7 +205,7 @@ An Haigh diagram is used  to assess the fatigue life of materials under varying 
 </p>
 
 <p align="center">
-Figure 5-1 : 
+Figure 5-1 : Haigh diagram for the CrMn
 </p>
 
 <p align="center">
@@ -213,15 +215,14 @@ Figure 5-1 :
 </p>
 
 <p align="center">
-Figure 5-2 : 
+Figure 5-2 : Worm gear stress 
 </p>
 
 - Analysis revealed minimal deformation and stress, suggesting good structural integrity.
-- 
+- High safety factor
 - Some discrepancies between numerical and analytical results were within acceptable limits.
 
 #### Discussion
-
 - Affirms the structural robustness of the worm gear.
 - Recommends refining force application model for accurate load distribution and enhancing gear design.
 
