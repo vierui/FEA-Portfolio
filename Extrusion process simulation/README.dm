@@ -1,3 +1,0 @@
-# Extrusion process simulation 
-
-  It
