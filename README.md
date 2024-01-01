@@ -70,17 +70,17 @@ This study presents a detailed examination of the extrusion process in copper wi
 
 <p align="center">
 <img
-  src="https://github.com/vierui/FEA-Portfolio/blob/main/nonlinear-copper-extrusion/XXX.png"
+  src="https://github.com/vierui/FEA-Portfolio/blob/main/nonlinear-copper-extrusion/resctrition-profile-plasticity-stress.png"
  width="810">
 </p>
 
 <p align="center">
-Figure 2-1 : 
+Figure 2-1 : Extrusion section stress-profile (left) and copper's plastic strain (right)
 </p>
 
 <p align="center">
 <img
-  src="https://github.com/vierui/FEA-Portfolio/blob/main/nonlinear-copper-extrusion/XX.png"
+  src="https://github.com/vierui/FEA-Portfolio/blob/main/nonlinear-copper-extrusion/press-matrix-stress.png"
  width="800">
 </p>
 
@@ -104,7 +104,6 @@ Investigate the buckling behavior of an F/A-18 structural-wing panel, exploring 
 - Nonlinear approach (NASTRAN - SOL402)
 - Multiple mesh models
 - 3D Shell
-
 
 **Main Results** 
 
@@ -137,9 +136,8 @@ Figure 3-2 :
 | Max Von Mises stress on the inner edge of the hole | 533 MPa | 429 MPa   |
 | Max principal stress on the inner edge of the hole | 508 MPa | 427 MPa   |
 | Maximum out-of-plane displacement             | 1.17 mm  | 6.44 mm   |
+
 </div>
-
-
 <p align="center">
 Table 3-1 : 
 </p>
@@ -175,25 +173,23 @@ Figure 3-2 :
 ### [Linear actuator's worm gear analysis](https://github.com/vierui/FEA-Portfolio/tree/main/stat-housing-flange/README.dm "Static worm gear")
 Linear actuator's worm gear analysis
 
-
-
 <p align="center">
 <img
-  src="https://github.com/vierui/FEA-Portfolio/blob/main/stat-housing-flange/XXX.png"
+  src="https://github.com/vierui/FEA-Portfolio/blob/main/stat-housing-flange/.png"
  width="800">
 </p>
 
 <p align="center">
-Figure 3-1 : 
+Figure 4-1 : 
 </p>
 
 <p align="center">
 <img
-  src="https://github.com/vierui/FEA-Portfolio/blob/main/stat-housing-flange/XXX.png"
+  src="https://github.com/vierui/FEA-Portfolio/blob/main/stat-housing-flange/X.png"
  width="800">
 </p>
 
 <p align="center">
-Figure 3-2 : 
+Figure 4-2 : 
 </p>
 
